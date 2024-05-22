@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+#query-btn {
+    padding: 20px;
+    position: absolute;
+}
+#container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 70vh;
+    width: 70vh;
+    background-color: black;
+}
+.box {
+    border: 1px solid #ccc;
+    height: fit-content;
+    opacity: 1;
+}
+.hovered {
+    background-color: rgb(189, 160, 117);
+}
